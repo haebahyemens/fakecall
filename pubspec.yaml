@@ -1,0 +1,42 @@
+name: lan_file_transfer
+description: A Flutter app for transferring files over LAN without internet
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP server and client
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  shelf_static: ^1.1.2
+  http: ^1.1.0
+  
+  # File operations
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Network utilities
+  network_info_plus: ^4.1.0
+  
+  # UI components
+  cupertino_icons: ^1.0.2
+  flutter_dropzone: ^4.0.1
+  
+  # Utilities
+  crypto: ^3.0.3
+  mime: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
